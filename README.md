@@ -1,6 +1,16 @@
-# sphinx-pages
+# Sphinx-Pages
 github pages based on sphinx
 
+With calling the [sphinx-2-gh-pages-converter shell script](sphinx-2-gh-pages-converter.sh)
+you can publish your sphinx based documentation to github pages.
+The documentation will be available following this pattern:
+
+https//:[github-handle].github.io/[repository]
+
+(e.g. https://lotharschulz.github.io/sphinx-pages/)
+
+Github.com enables pages automatically if a _gh-pages_ branch exists:
+![gh-pages recognition](https://github.com/lotharschulz/pages-create-from-gh-pages-branch.png)
 
 #### project notes
 
