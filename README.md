@@ -10,7 +10,7 @@ https//:[github-handle].github.io/[repository]
 (e.g. https://lotharschulz.github.io/sphinx-pages/)
 
 Github.com enables pages automatically if a _gh-pages_ branch exists:
-![gh-pages recognition](/pages-create-from-gh-pages-branch.png)
+![gh-pages recognition](/pages-created-from-gh-pages-branch.png)
 
 #### project notes
 
