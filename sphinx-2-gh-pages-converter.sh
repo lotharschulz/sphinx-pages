@@ -6,7 +6,6 @@ IFS=$'\n\t'
 # get a clean master branch assuming
 git checkout master
 git pull origin master
-git checkout -- .
 git clean -df
 git fetch --all
 
