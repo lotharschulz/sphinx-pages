@@ -28,7 +28,7 @@ fi
 ls | grep -v _build | xargs rm -r
 mv _build/* . && rm -rf _build
 git add .
-git commit -m "new pages version"
+git commit -m "new pages version $(date)"
 git push origin gh-pages
 # github.com recognizes gh-pages branch and create pages
 # url scheme https//:[github-handle].github.io/[repository]
