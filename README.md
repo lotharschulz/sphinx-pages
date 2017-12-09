@@ -31,5 +31,7 @@ sphinx-quickstart # followed all default but set names and author
 # a sample index.rst file
 # .gitignore from https://github.com/sphinx-doc/sphinx/blob/master/.gitignore
 # generate docs locally
-sphinx-autobuild . _build --open-browser
+sphinx-build -b html . _build
+#optional
+sphinx-autobuild . _build --open-browser # opens built docs in browser
 ```
