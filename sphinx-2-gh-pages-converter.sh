@@ -7,6 +7,7 @@ IFS=$'\n\t'
 git checkout master
 git pull origin master
 git clean -df
+git checkout -- .
 git fetch --all
 
 # build html docs from sphinx files
