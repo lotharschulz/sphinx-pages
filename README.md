@@ -12,9 +12,17 @@ https//:[github-handle].github.io/[repository]
 Github.com enables pages automatically if a _gh-pages_ branch exists:
 <kbd>![gh-pages recognition](/pages-created-from-gh-pages-branch.png)</kbd>
 
-#### project notes
+## Preconditions
 
-##### install (apt-get & pip precondition)
+- git repository exists in current directory
+- git remote is defined
+- permissions to pull, push are granted to the user executing the script
+- os package manager is apt-get
+- python, pip is installed
+
+#### Project notes
+
+##### Installation
 
 ```
 apt-get install python-sphinx #sudo apt-get install python-sphinx
@@ -23,7 +31,7 @@ pip install sphinx_rtd_theme #sudo -H pip install sphinx_rtd_theme
 pip install sphinx-autobuild #sudo -H pip install sphinx-autobuild
 ```
 
-##### project setup
+##### Project setup
 
 ```
 sphinx-quickstart # followed all default but set names and author
