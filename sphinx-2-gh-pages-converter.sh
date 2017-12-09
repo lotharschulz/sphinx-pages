@@ -19,7 +19,8 @@ if [ $(git branch --list $branch_name) ]
 then
 	git stash
 	git checkout $branch_name
-	git stash apply
+	#git stash apply
+	git checkout stash -- .
 else
 	git checkout --orphan $branch_name
 fi
