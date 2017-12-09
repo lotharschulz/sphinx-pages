@@ -20,7 +20,7 @@ then
 	git stash
 	git checkout $branch_name
 	#git stash apply
-	git checkout stash -- .
+	git checkout stash -- . # force git stash to overwrite added files
 else
 	git checkout --orphan $branch_name
 fi
