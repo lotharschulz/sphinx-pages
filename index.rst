@@ -6,7 +6,7 @@ Some text which includes links to `sphinx ascii art website`_ and much more.
 
 `sphinx ascii art website`_ can be referenced multiple times.
 
-An ascii art sphinx::
+A sphinx::
 
 ──────────────────────────────▄▄
 ──────────────────────▄▄▄▄▄▄▄▄▌▐▄
