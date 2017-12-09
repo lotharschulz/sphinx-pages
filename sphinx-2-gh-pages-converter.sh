@@ -21,6 +21,7 @@ if [ $(git branch --list "$branch_name") ]
 then
 	git stash
 	git checkout $branch_name
+	git pull origin $branch_name
 	#git stash apply
 	git checkout stash -- . # force git stash to overwrite added files
 else
@@ -29,6 +30,7 @@ fi
 
 if [ -d "$buildDirectory" ]
 then
+	echo "if [ -d $buildDirectory ]"
 	ls | grep -v _build | xargs rm -r
 	mv _build/* . && rm -rf _build
 	git add .
