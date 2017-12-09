@@ -30,7 +30,6 @@ fi
 
 if [ -d "$buildDirectory" ]
 then
-	echo "if [ -d $buildDirectory ]"
 	ls | grep -v _build | xargs rm -r
 	mv _build/* . && rm -rf _build
 	git add .
