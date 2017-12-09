@@ -17,7 +17,9 @@ sphinx-build -b html . _build
 branch_name=gh-pages
 if [ $(git branch --list $branch_name) ]
 then
+	git stash
 	git checkout $branch_name
+	git stash apply
 else
 	git checkout --orphan $branch_name
 fi
