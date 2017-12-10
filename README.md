@@ -15,6 +15,7 @@ Github.com enables pages automatically if a _gh-pages_ branch exists:
 ## Preconditions
 
 - git repository exists in current directory
+- sphinx files are part of master branch
 - git remote is defined
 - permissions to pull, push are granted to the user executing the script
 - os package manager is apt-get
