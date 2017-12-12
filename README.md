@@ -44,3 +44,6 @@ sphinx-build -b html . _build
 #optional
 sphinx-autobuild . _build --open-browser # opens built docs in browser
 ```
+
+### Blog Post
+- https://www.lotharschulz.info/2017/12/11/sphinx-gh-pages/
